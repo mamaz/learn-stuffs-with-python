@@ -1,0 +1,12 @@
+schema_str = """
+    {
+        "namespace": "ai.kata.examples",
+        "name": "User",
+        "type": "record",
+        "fields": [
+            {"name": "name", "type": "string"},
+            {"name": "favorite_number", "type": "int"},
+            {"name": "favorite_color", "type": "string"}
+        ]
+    }
+    """
